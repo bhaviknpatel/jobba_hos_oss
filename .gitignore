@@ -1,0 +1,7 @@
+a.out
+.vscode/
+*.class
+*.aux
+*.dvi
+*.log
+*.pdf
