@@ -1,20 +1,20 @@
 #include <stdio.h>
  
 typedef struct structure_1 {
-  char a;
   short int b;
+  char a;
 } structure_1;
  
 typedef struct structure_2 {
+  int c;
   short int a;
   char b;
-  int c;
 } structure_2;
  
 typedef struct structure_3 {
-  char a;
   double b;
   int c;
+  char a;
 } structure_3;
  
 typedef struct structure_4 {
@@ -25,9 +25,9 @@ typedef struct structure_4 {
  
 typedef struct structure_5 {
   structure_3 a;
-  structure_1 b;
   structure_4 c;
   structure_2 d;
+  structure_1 b;
 } structure_5;
 
 int main() {
