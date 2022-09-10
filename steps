@@ -1,0 +1,36 @@
+> gcc -o who_we_are.a who_are_we.c
+> ./who_we_are.a
+Hello there, här är en liten head count och namn på våra anställda :)
+
+Antal anställda: 10
+
+Och vi är:
+Alexander
+BG
+Cleas
+David
+Gregory
+Petter
+Ingemar
+Jesper
+Martin
+Timo
+Ditt namn
+XX
+XX
+XX
+XX
+
+15 is our upper limit av antalet anställda.
+Hade varit trevligt om du hade kunnat vara 1 av de 5 som fattas :)
+> gcc -o mojliga_arbestformer.a mojliga_arbestformer.c
+> ./mojliga_arbestformer.a
+Arbetsformen: egenföretagare TRUE, anställd TRUE, preferit_AB FALSE: är ej möjlig.
+Arbetsformen: egenföretagare TRUE anställd FALSE, preferit_AB FALSE: är möjlig men, det finns en som är bättre.
+Den trista arbetsformen: egenföretagare FALSE, anställd TRUE, preferit_AB FALSE: är möjlig.
+Arbetsformen: egenföretagare FALSE, anställd FALSE, preferit_AB FALSE: är ej möjlig.
+Arbetsformen: egenföretagare FALSE, anställd FALSE, preferit_AB TRUE: är ej möjlig.
+Arbetsformen: egenföretagare TRUE anställd FALSE, preferit_AB TRUE: är ej möjlig.
+Arbetsformen: egenföretagare FALSE, anställd TRUE, preferit_AB TRUE: är möjlig.
+Den roliga arbetsformen: egenföretagare TRUE, anställd TRUE, preferit_AB TRUE: ÄR MÖJLIG!
+Vill du veta mera kontakta gärna mig på alexander@preferit.se eller på LinkedIn (Alexander Löfqvist)

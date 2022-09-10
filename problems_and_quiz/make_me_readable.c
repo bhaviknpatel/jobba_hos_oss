@@ -1,2 +1,13 @@
 #include <stdio.h>
-int main(){int o_5fda3de3d0b517d64c5a1fac87882bcc,o_a555758cd22763bd92a7dd68e64b4da2,o_b958c98e8e9584037ac54282f817c8bc=(0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);printf("\x45""n\164e\x72"" \141 \x70""o\163i\x74""i\166e\x20""i\156t\x65""g\145r\x3A"" ");scanf("\x25""d",&o_5fda3de3d0b517d64c5a1fac87882bcc);for (o_a555758cd22763bd92a7dd68e64b4da2 = (0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03);(o_a555758cd22763bd92a7dd68e64b4da2 <= o_5fda3de3d0b517d64c5a1fac87882bcc) & !!(o_a555758cd22763bd92a7dd68e64b4da2 <= o_5fda3de3d0b517d64c5a1fac87882bcc);++o_a555758cd22763bd92a7dd68e64b4da2){o_b958c98e8e9584037ac54282f817c8bc += o_a555758cd22763bd92a7dd68e64b4da2;};printf("\x53""u\155 \x3D"" \045d",o_b958c98e8e9584037ac54282f817c8bc);return (0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);};
+int main()
+{
+    int a, b, c = 0;
+    printf("Enter a positive integer: ");
+    scanf("%d", &a);
+    for (b = 1; b <= a; ++b)
+    {
+        c += b;
+    };
+    printf("Sum = %d\n", c);
+    return 0;
+};
