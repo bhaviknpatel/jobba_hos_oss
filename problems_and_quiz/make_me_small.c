@@ -2,22 +2,22 @@
 
 typedef struct __attribute__((__packed__)) structure_1
 {
-  short int b;
   char a;
+  short int b;
 } structure_1;
 
 typedef struct __attribute__((__packed__)) structure_2
 {
-  int c;
   short int a;
   char b;
+  int c;
 } structure_2;
 
 typedef struct __attribute__((__packed__)) structure_3
 {
+  char a;
   double b;
   int c;
-  char a;
 } structure_3;
 
 typedef struct __attribute__((__packed__)) structure_4
@@ -30,9 +30,9 @@ typedef struct __attribute__((__packed__)) structure_4
 typedef struct __attribute__((__packed__)) structure_5
 {
   structure_3 a;
+  structure_1 b;
   structure_4 c;
   structure_2 d;
-  structure_1 b;
 } structure_5;
 
 int main()
